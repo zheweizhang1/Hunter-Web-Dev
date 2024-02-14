@@ -1,64 +1,60 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Zhe Wei Zhang Resume</title>
-  </head>
-  <body>
-      <h1 class="title">Zhe Wei Zhang </h1>
-      <img src="assignment1-resume/profile.jpg"/>
-      <h3>Summary</h3>
-      <p>Aspiring software engineer</p>
-      <hr></hr>
-      <h3>Education</h3>
-      <h4>Hunter College</h4>
-      <ul>
-        <li>
-          B.A in Computer Science (September 2022 - December 2024)
-        </li>
-      </ul>
-      <hr></hr>
-      <h3>Skills</h3>
-      <ul>
-        <li>
-          Languages: Python, C, C++, CSS, Java, HTML, PHP, Javascript
-        </li>
-        <li>
-          Technologies: SQL, PostgresSQL, Git, React, AWS, Node.js, ElasticSearch, Flask
-        </li>
-      </ul>
-      <hr></hr>
-      <h3>Work Experience</h3>
-      <h4>AuriStor</h4>
-      <h5>March 2024-April 2024</h5>
-      <ul>
-        <li>
-          Engaged with LVGS internal Sqlite database for server-related tasks
-        </li>
-        <li>
-          Modeled frameworks akin to the Kubernetes dashboard, emphasizing Angular for the frontend
-        </li>
-        <li>
-          Employed Golang for ACA and LVGS and Typesript + Golang for Kubernetes dashboard
-        </li>
-        <li>
-          Implemented conterization using Podman, aligning with RedHat recommendation
-        </li>
-      </ul>
-      <hr></hr>
-      <h3>Projects</h3>
-      <h4>Python Web App</h4>
-      <ul>
-        <li>Created a web app in Python and using Flask to search through a dataset using AND,OR, and NOT queries</li>
-      </ul>
-      <hr></hr>
-      <ul>
-        <Li>
-          <a href="assignment1-resume/contact.html">Contact me</a>
-        </Li>
-        <li>
-          <a href="assignment1-resume/hobbies.html">Hobbies</a>
-        </li>
-      </ul>
-      
-  </body>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Box Model</title>
+<style>
+  .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 8px;
+    padding: 16px;
+    width: 1000px;
+  }
+
+  .box {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
+ .box:nth-child(n) {
+    border-width: 2px;
+    background-color: red;
+  }
+
+  .box:nth-child(2n) {
+    border-width: 2px;
+    background-color: yellow;
+  }
+
+  .box:nth-child(3n) {
+    border-width: 4px;
+    background-color: orange;
+
+  }
+
+  .box:nth-child(4n) {
+    border-width: 8px;
+    background-color: lightgreen;
+
+  }
+
+  .box:nth-child(5n) {
+    border-width: 16px;
+    background-color: lightblue;
+
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="box" style="grid-column: 1; grid-row: 1;">Box </div>
+  <div class="box" style="grid-column: 2; grid-row: 2;">Box 2</div>
+  <div class="box" style="grid-column: 3; grid-row: 3;">Box 3</div>
+  <div class="box" style="grid-column: 4; grid-row: 4;">Box 4</div>
+  <div class="box" style="grid-column: 5; grid-row: 5;">Box 5</div>
+</div>
+</body>
 </html>
