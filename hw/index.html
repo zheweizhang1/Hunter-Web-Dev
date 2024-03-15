@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunset Treasures Trading Co.</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    body{
+        background-color: #412a1e;
+    }
+    .feature-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 0.25rem;
+    }
+
+    .flex-container{
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ql{
+      font-weight: bold;
+    }
+
+    .ql2{
+      list-style: none;
+    }
+
+    /* Customize Navbar */
+    .navbar {
+      background-color: #412a1e; 
+      border-bottom: 2px solid #f8de3c;
+    }
+
+    .navbar-brand {
+      color: #f8de3c; /* Yellow color */
+      display: flex;
+      gap: 4px;
+
+    }
+
+    .navbar-nav .nav-link {
+      color: #ffff00; /* Yellow color */
+    }
+
+    .navbar-nav .nav-link.active {
+      color: #ffffff; /* White color */
+      background-color: #c8472c; 
+    }
+
+    .navbar-toggler-icon {
+      background-color: #ffff00; /* Yellow color */
+    }
+
+    .navbar-toggler {
+      border-color: #ffff00; /* Yellow color */
+    }
+
+    .navbar-collapse {
+      background-color: #412a1e;
+    }
+
+    .form-control {
+      background-color: #fefefe; /* Yellow color */
+      color: #412a1e; /* Blue color */
+    }
+
+    .btn-outline-success {
+      color: #ffff00; /* Yellow color */
+      border-color: #ffff00; /* Yellow color */
+    }
+
+    .btn-outline-success:hover {
+      background-color: #ffff00; /* Yellow color */
+      color: #0066cc; /* Blue color */
+    }
+
+    .dropdown-menu {
+      background-color: #0066cc; /* Blue color */
+    }
+
+    .dropdown-item {
+      color: #ffff00; /* Yellow color */
+    }
+
+    .dropdown-item:hover {
+      background-color: #ffff00; /* Yellow color */
+      color: #0066cc; /* Blue color */
+    }
+
+    .dropdown-divider {
+      background-color: #ffff00; /* Yellow color */
+    }
+    .mid-background{
+      background-image: url(./assets/jpeg/sunnygo.png)  ;
+      background-color: steelblue;
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: multiply;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+        padding: 2rem;
+    }
+    .btn-primary{
+        background-color: #0b3075;
+        border: none;
+    }
+    .btn-outline-secondary{
+        border: 1px solid #58acf4;
+        color: #58acf4;
+    }
+    h2{
+        color:#fefefe;
+    }
+  </style>
+</head>
+
+<!-- top -->
+<body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img style="color: white"src="./assets/svg/map.svg" alt="icon box"/>Sunset Treasures
+    </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Gumgum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Information</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search for treasure" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+</body>
+</html>
+
+  <!-- mid -->
+  <div class="px-4 pt-5 my-5 text-left border-bottom ">
+    <div class="mid-background d-flex flex-row">
+        <div  style="width:fit-content">
+        
+        <h1 class="display-4 fw-bold text-body-emphasis">Sunset Treasures Trading Co.</h1>
+        <div class="col-lg-6 mr-auto">
+          <p class="lead mb-4">Sunset Treasures Trading Co. is a vibrant enterprise founded by the Straw Hat Pirates from One Piece. Embodying the adventurous spirit and camaraderie of the Straw Hats, this company specializes in sourcing and selling unique treasures from across the Grand Line and beyond.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-start mb-5">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Discover</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+            <img src="./assets/jpeg/treasure.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="500" height="400" loading="lazy">
+          </div>
+        </div>
+    </div>
+    <div style="    width: -webkit-fill-available;    ">
+        <h1 class="display-4 fw-bold text-body-emphasis">Our Current Members</h1>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Roronoa</td>
+                <td>Zoro</td>
+                <td>@mosshead</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Monkey D</td>
+                <td>Luffy</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">God D. Ussop</td>
+                <td>@therealsogeking</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+    </div>
+</div>
+
+  <!-- 2 pics -->
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">WHY LOOT WITH US</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./assets/svg/safe-fill.svg" alt="briefcase" height="30"/>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Unique Treasures</h3>
+        <p>Sunset Treasures offers a diverse range of unique treasures including:
+            <ul class="ql2">
+                <li>
+                  <span class="ql">Exotic Fruits:</span> From Devil Fruits to rare berries, our selection will tantalize your taste buds and grant incredible powers.
+                </li>
+                <li>
+                  <span class="ql">Mysterious Artifacts:</span> Unlock ancient secrets and wield unimaginable power with artifacts from distant lands.
+                </li>
+                <li>
+                  <span class="ql">Rare Gems:</span> Adorn yourself with gems of unmatched beauty and value, each with its own captivating story.
+                </li>
+              </ul>
+        </p>
+        <a href="#" class="icon-link">
+            Explore More
+         <img src="./assets/svg/chevron-right.svg" />
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./assets/svg/send-fill.svg" height="30">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Adventure Adwaits</h3>
+        <p>Join us as we explore the uncharted territories of the Grand Line in search of hidden treasures and legendary artifacts. Experience the thrill of discovery as you uncover ancient ruins, encounter mythical creatures, and face off against formidable foes. Live out your wildest dreams and make memories that will last a lifetime with Sunset Treasures Trading Co. </p>
+        <a href="#" class="icon-link">
+          Join the Crew
+          <img src="./assets/svg/chevron-right.svg" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  
+
+    <!-- carousel part-->
+    <div class="container" style="box-shadow: 12px 12px 2px 1px #271912;">
+        <div id="myCarousel" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="./assets/jpeg/onepieceisreal.png" class="d-block w-100"/>
+              <div class="container">
+                <div class="carousel-caption text-start">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <img src="./assets/jpeg/luffy.png" class="d-block w-100"/>
+              <div class="container">
+                <div class="carousel-caption">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/jpeg/mosshead.png" class="d-block w-100"/>
+              <div class="container">
+                <div class="carousel-caption text-end">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    
+      <div class="flex-container">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/jpeg/devilfruit.png" class="card-img-top" alt="Dice">
+          <div class="card-body">
+            <h5 class="card-title">Secret Auction</h5>
+            <p class="card-text">Only for those with berries.</p>
+            <a href="#" class="btn btn-danger">Enter</a>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <!-- foot -->
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">© Sunny Inc</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">GumGum</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Information</a></li>
+        </ul>
+      </footer>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+    </html>
